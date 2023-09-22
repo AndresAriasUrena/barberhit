@@ -226,7 +226,7 @@ body.nav-active {
 
 .headline-md,
 .headline-sm {
-  color: var(--midnight-green);
+  color: var(--white);
 }
 
 .headline-sm {
@@ -557,7 +557,7 @@ body.nav-active {
 
 .hero-content .sub {
   color: white;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .hero-card {
