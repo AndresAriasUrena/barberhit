@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Azurro - Tu barbería en un sólo click!</title>
+    <meta name="title" content="Azurro - inicio" />
+    <meta
+      name="description"
+      content="This is a freemiun calendarhit demo."
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+   <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="./assets/images/load-azzurro.png" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            id="logo1"
+            width="136"
+            height="46"
+            alt="Azurro home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                id="logo2"
+                width="136"
+                height="46"
+                alt="Doclab home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="clsoe menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-md">Inicio</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#servicios" class="navbar-link title-md">Servicios</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contacto" class="navbar-link title-md">Contacto</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <!-- <li>
+              <a id="twitter" href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li> -->
+
+            <li>
+              <a id="instagram" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            
+            <li>
+              <a id="facebook" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a id="whatsapp" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li> -->
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <a href="#agendar" class="btn has-before title-md">Agendar cita</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero"
+          style="
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./assets/images/hero-banner.jpg');
+            background-position: center;
+          "
+          aria-label="home"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p style="display: inline-flex;" class="hero-subtitle has-before" data-reveal="left">
+                by&nbsp;<span id="nombreBarbero"></span>
+              </p>
+
+              <h1 class="headline-lg hero-title" data-reveal="left">
+                Tu barbería de confianza a solo un click.
+              </h1>
+
+              <p class="sub">Corte de pelo y afeitado para hombres de todas las edades.</p>
+              <a href="#agendar"class="btn has-before hero-cta">Agendar cita</a>
+
+              <!-- <div class="hero-card" data-reveal="left">
+                <p class="title-lg card-text">
+                  Search doctors. clinics. hospitals. etc.
+                </p>
+
+                <div class="wrapper">
+                  <div class="input-wrapper title-lg">
+                    <input
+                      type="text"
+                      name="location"
+                      placeholder="Locations"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <button class="btn has-before">
+                    <ion-icon name="search"></ion-icon>
+
+                    <span class="span title-md">Find Now</span>
+                  </button>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- <figure class="hero-banner" data-reveal="right">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="590"
+                height="517"
+                loading="eager"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure> -->
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section id="servicios" class="service" aria-label="service">
+          <div class="container">
+            <ul class="service-list">
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/corte-pelo.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#agendar">Corte de pelo</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Encuentra el corte de pelo perfecto para tu rostro, tu estilo y tu personalidad
+                  </p>
+
+                  <a href="#agendar"><button
+                    class="btn-circle"
+                    aria-label="read more about psychiatry"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/corte-barba.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#agendar">Afeitado</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Consigue un afeitado limpio y cómodo sin irritación
+                  </p>
+
+                  <a href="#agendar"><button
+                    class="btn-circle"
+                    aria-label="read more about Gynecology"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/corte-peinado.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#agendar">Peinado</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Luce tu mejor aspecto para cualquier ocasión
+                  </p>
+
+                  <a href="#agendar"><button
+                    class="btn-circle"
+                    aria-label="read more about Pulmonology"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/corte-tratamiento.png"
+                      width="130"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#agendar">Tratamientos</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mantén tu piel sana y radiante
+                  </p>
+
+                  <a href="#agendar"><button
+                    class="btn-circle"
+                    aria-label="read more about Orthopedics"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section id="agendar" class="section appoin" aria-labelledby="about-label">
+          <div class="container">
+            <div class="about-content">
+              <p
+                class="section-subtitle title-lg has-after"
+                id="about-label"
+                data-reveal="left"
+              >
+                CALENDARIO
+              </p>
+
+              <h2 class="headline-md" data-reveal="left">
+                Reserva tu espacio
+              </h2>
+              <div class="appoin-card">
+                <figure
+                  class="card-banner img-holder"
+                  style="--width: 250; --height: 774"
+                  data-reveal="left"
+                >
+                  <img
+                    src="./assets/images/appoin-banner-1.png"
+                    width="250"
+                    height="774"
+                    loading="lazy"
+                    alt=""
+                    class="img-cover"
+                  />
+                </figure>
+                <div class=" 2card-content" style="width: 100%;">
+                  <iframe data-reveal="left" src="https://app.simplymeet.me/calendarhit?is_widget=1&view=compact" style="width:100%; height:650px;" frameborder="0" scrolling="yes"></iframe>
+                  <div class="hide-promo"></div>
+                </div>
+                <figure
+                  class="card-banner img-holder"
+                  style="--width: 250; --height: 774"
+                  data-reveal="left"
+                >
+                  <img
+                    src="./assets/images/appoin-banner-2.png"
+                    width="250"
+                    height="774"
+                    loading="lazy"     
+                    alt=""
+                    class="img-cover"
+                  />
+                </figure>
+              </div>
+              <!-- <p class="section-text" data-reveal="left">
+                Aliquam faucibus, odio nec commodo aliquam, neque felis placerat
+                dui, a porta ante lectus dapibus est. Aliquam
+              </p>
+
+              <ul class="tab-list" data-reveal="left">
+                <li>
+                  <button class="tab-btn active">Vision</button>
+                </li>
+
+                <li>
+                  <button class="tab-btn">Mission</button>
+                </li>
+
+                <li>
+                  <button class="tab-btn">Strategy</button>
+                </li>
+              </ul>
+
+              <p class="tab-text" data-reveal="left">
+                Aliquam faucibus, odio nec commodo aliquam, neque felis placerat
+                dui, a porta ante lectus dapibus est. Aliquam a bibendum mi, sed
+                condimentum
+              </p>
+
+              <div class="wrapper">
+                <ul class="about-list">
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                    <span class="span">Sonsectetur adipisicing elit</span>
+                  </li>
+
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                    <span class="span">Exercitation ullamco laboris</span>
+                  </li>
+
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                    <span class="span">Eiusmod tempor incididunt</span>
+                  </li>
+
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                    <span class="span">Aolore magna aliqua</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <figure class="about-banner" data-reveal="right">
+              <img
+                src="./assets/images/about-banner.png"
+                width="554"
+                height="678"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure> -->
+          </div>
+        </section>
+
+        <!-- 
+        - #LISTING
+      -->
+
+        <!-- <section class="section listing" aria-labelledby="listing-label">
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <p
+                  class="section-subtitle title-lg"
+                  id="listing-label"
+                  data-reveal="left"
+                >
+                  Doctors Listig
+                </p>
+
+                <h2 class="headline-md" data-reveal="left">
+                  Browse by specialist
+                </h2>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-1.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Psychiatry</h3>
+
+                    <p class="card-text">Porta velit</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-2.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Gynecology</h3>
+
+                    <p class="card-text">Mattis augue</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-4.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Pulmonology</h3>
+
+                    <p class="card-text">Mauris laoreet</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-5.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                    <p class="card-text">Convallis vulputate</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-6.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Pediatrics</h3>
+
+                    <p class="card-text">Posuere maecenas</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-7.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Osteology</h3>
+
+                    <p class="card-text">Nisi nullam</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <!-- <section class="section blog" aria-labelledby="blog-label">
+          <div class="container">
+            <p
+              class="section-subtitle title-lg text-center"
+              id="blog-label"
+              data-reveal="bottom"
+            >
+              News & Article
+            </p>
+
+            <h2
+              class="section-title headline-md text-center"
+              data-reveal="bottom"
+            >
+              Latest Articles
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <span class="span">By Admin</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    Could intermittent fasting reduce breast cancer
+                  </h3>
+
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <span class="span">By Admin</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    Give children more autonomy during the pandemic
+                  </h3>
+
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <span class="span">By Admin</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    How do binge eating and drinking impact the liver?
+                  </h3>
+
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      id="contacto"
+      class="footer has-bg-image"
+      style="background-image: url('./assets/images/footer-bg.png')"
+    >
+      <div class="container">
+        <div class="section footer-top">
+          <div class="footer-brand" data-reveal="bottom">
+            <a href="#" class="logo">
+              <img
+                id="logo3"
+                width="136"
+                height="46"
+                loading="lazy"
+                alt="Doclab home"
+              />
+            </a>
+
+            <ul class="contact-list has-after">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="text">
+                    Correo Electrónico :
+                    <a id="mailto" class="contact-link"
+                      ><span id="correo"></span></a
+                    >
+                  </p>
+
+                  <p>
+                    <!-- Inquiries :
+                    <a href="mailto:Info@mail.com" class="contact-link"
+                      >Info@mail.com</a
+                    > -->
+                    &nbsp;
+                  </p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="text">
+                    Teléfono :
+                    <a style="display: inline-flex;" id="telto" class="contact-link"
+                      >+506&nbsp;<span id="telefono"></span></a
+                    >
+                  </p>
+
+                  <p>
+                    <!-- Mobile :
+                    <a href="tel:000232439493" class="contact-link"
+                      >000 2324 39493</a
+                    > -->
+                    &nbsp;
+
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-list" data-reveal="bottom">
+            <p class="headline-sm footer-list-title">Reserva en línea</p>
+
+            <p class="text">
+              Reserva tu cita en línea y olvídate de las filas. Reserva tu cita en cuestión de minutos y recibe recordatorios de tu cita.
+            </p>
+
+            <address class="address">
+              <ion-icon name="map-outline"></ion-icon>
+
+              <span class="text"><span id="dir1"></span><span id="dir2"></span></span>
+            </address>
+          </div>
+
+          <ul class="footer-list" data-reveal="bottom">
+            <li>
+              <p class="headline-sm footer-list-title">Enlaces</p>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">Inicio</a>
+            </li>
+
+            <li>
+              <a href="#servicios" class="text footer-link">Servicios</a>
+            </li>
+
+            <li>
+              <a href="#agendar" class="text footer-link">Agenda</a>
+            </li>
+
+            <li>
+              <a href="#contacto" class="text footer-link">Contacto</a>
+            </li>
+
+            <li>
+              <a target="_blank" id="waze" class="text footer-link">Waze</a>
+            </li>
+
+            <li>
+              <a target="_blank" id="googlemaps" class="text footer-link">Google Maps</a>
+            </li>
+          </ul>
+
+<!--           <ul class="footer-list" data-reveal="bottom">
+            <li>
+              <p class="headline-sm footer-list-title">Useful Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">Our Services</a>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">Join as a Doctor</a>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">New Guests List</a>
+            </li>
+
+            <li>
+              <a href="#" class="text footer-link">The Team List</a>
+            </li>
+          </ul> -->
+
+<!--           <div class="footer-list" data-reveal="bottom">
+            <p class="headline-sm footer-list-title">Subscribe</p>
+
+            <form action="" class="footer-form">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="input-field title-lg"
+              />
+
+              <button type="submit" class="btn has-before title-md">
+                Subscribe
+              </button>
+            </form>
+
+            <p class="text">
+              Get the latest updates via email. Any time you may unsubscribe
+            </p>
+          </div>
+        </div> -->
+
+        <div class="footer-bottom">
+          <p style="display: inline;" class="text copyright">
+            <span style="display: flex; flex-direction: row;">&copy; <a href="#">calendarhit</a>&nbsp;2023 | Todos los</span> derechos reservados  por<a target="_blank" href="https://www.mainlydigitalworks.com">MainlyDigitalWorks</a>
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a target="_blank" id="facebook2" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a target="_blank" href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li> -->
+
+            <li>
+              <a target="_blank" id="googlemaps2" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" id="instagram2" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" id="whatsapp2" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
