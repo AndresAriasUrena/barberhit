@@ -373,7 +373,7 @@ body.nav-active {
   width: 100%;
   height: 100vh;
   /* background-color: var(--verdigris); */
-  background-image: url("../images/load-azzurro.png");
+  background-image: url("../images/load-classiccuts.png");
   background-position: center;
   display: grid;
   place-items: center;

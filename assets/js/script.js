@@ -8,26 +8,35 @@ const logo2 = document.querySelector("#logo2");
 const logo3 = document.querySelector("#logo3");
 
 const datosBarberia = {
-  nombreBarbero: "Gerardo Rovira",
-  telefono: "8883-2727", //60409102
-  correo: "vladsonofthedevil616@gmail.com",
-  dir1: "100m Sur del CTP",
-  dir2: "Granadilla, San José",
+  nombreBarbero: "Anthony Salas",
+  telefono: "6378-9833", //85133445
+  correo: "classiccuts@gmail.com",
+  dir1: "25m Oeste Diagonal al BCR ",
+  dir2: "Sabanilla de Montes de Oca, San José",
 };
 const enlaces = {
-  instagram: "https://www.instagram.com/",
-  instagram2: "https://www.instagram.com/",
-  facebook: "https://www.facebook.com/",
-  facebook2: "https://www.facebook.com/",
+  instagram: "https://www.instagram.com/classiccuts.barbershopcr/",
+  instagram2: "https://www.instagram.com/classiccuts.barbershopcr/",
+  facebook:
+    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
+  facebook2:
+    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
   whatsapp: "https://www.whatsapp.com/",
   whatsapp2: "https://www.whatsapp.com/",
-  mailto: `mailto:vladsonofthedevil616@gmail.com`,
-  telto: `tel:50688332727`,
-  waze: `https://ul.waze.com/ul?preview_venue_id=180879459.1808729057.26260879&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
-  googlemaps: "https://maps.app.goo.gl/uxtYLHHznSzWWuDQ6",
-  googlemaps2: "https://maps.app.goo.gl/uxtYLHHznSzWWuDQ6",
+  mailto: `mailto:classiccuts@gmail.com`,
+  telto: `tel:50663789833`,
+  waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
+  googlemaps: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
+  googlemaps2: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
 };
-const ruta_logo = "./assets/images/azzurro-logo.svg";
+const ruta_logo = "./assets/images/classiccuts-logo.svg";
+
+/**
+ * Cambiar title
+ * cambiar meta title
+ * Preload images
+ * backround'image in preloader css
+ */
 
 for (const dato in datosBarberia) {
   const elemento = document.querySelector(`#${dato}`);
