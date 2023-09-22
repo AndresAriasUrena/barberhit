@@ -8,28 +8,30 @@ const logo2 = document.querySelector("#logo2");
 const logo3 = document.querySelector("#logo3");
 
 const datosBarberia = {
-  nombreBarbero: "Anthony Salas",
-  telefono: "6378-9833", //85133445
-  correo: "classiccuts@gmail.com",
-  dir1: "25m Oeste Diagonal al BCR ",
-  dir2: "Sabanilla de Montes de Oca, San José",
+  nombreBarbero: "Francis Cartin",
+  telefono: "8346-1666", //85133445
+  correo: "cartin.santamaria@gmail.com",
+  dir1: "Frente al Ebais, en el Alto",
+  dir2: "Guadalupe, San José",
 };
 const enlaces = {
-  instagram: "https://www.instagram.com/classiccuts.barbershopcr/",
-  instagram2: "https://www.instagram.com/classiccuts.barbershopcr/",
+  instagram:
+    "https://www.instagram.com/barberiafranciscartin/?fbclid=IwAR3aKMLfHs0j-EiuwTuiicJpRHK7egfbgd7SBpi8xbD-NTRECHflRYhV9MA",
+  instagram2:
+    "https://www.instagram.com/barberiafranciscartin/?fbclid=IwAR3aKMLfHs0j-EiuwTuiicJpRHK7egfbgd7SBpi8xbD-NTRECHflRYhV9MA",
   facebook:
-    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
+    "https://www.facebook.com/barberiafranciscartin/?ref=bookmarks&paipv=0&eav=Afax9OgVwhIZDXguL6ecjk7fTXVjtOLhmav5m-Z5vPnLtFiD9fIdk2KZC0kMUYa3SE8&_rdr",
   facebook2:
-    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
-  whatsapp: "https://api.whatsapp.com/send?phone=50663789833",
-  whatsapp2: "https://api.whatsapp.com/send?phone=50663789833",
-  mailto: `mailto:classiccuts@gmail.com`,
-  telto: `tel:50663789833`,
-  waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
-  googlemaps: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
-  googlemaps2: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
+    "https://www.facebook.com/barberiafranciscartin/?ref=bookmarks&paipv=0&eav=Afax9OgVwhIZDXguL6ecjk7fTXVjtOLhmav5m-Z5vPnLtFiD9fIdk2KZC0kMUYa3SE8&_rdr",
+  whatsapp: "https://api.whatsapp.com/send?phone=50683461666",
+  whatsapp2: "https://api.whatsapp.com/send?phone=50683461666",
+  mailto: `mailto:cartin.santamaria@gmail.com`,
+  telto: `tel:50683461666`,
+  waze: `https://ul.waze.com/ul?place=ChIJZ6dD0hvloI8RuTTpl9RIAZU&ll=9.95589800%2C-84.04086590&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
+  googlemaps: "https://maps.app.goo.gl/Fsr262jf3RB5BGnz9",
+  googlemaps2: "https://maps.app.goo.gl/Fsr262jf3RB5BGnz9",
 };
-const ruta_logo = "./assets/images/classiccuts-logo.svg";
+const ruta_logo = "./assets/images/franciscartin-logo.svg";
 
 /**
  * Cambiar title
