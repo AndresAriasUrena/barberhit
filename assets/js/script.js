@@ -21,8 +21,8 @@ const enlaces = {
     "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
   facebook2:
     "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
-  whatsapp: "https://www.whatsapp.com/",
-  whatsapp2: "https://www.whatsapp.com/",
+  whatsapp: "https://api.whatsapp.com/send?phone=50663789833,
+  whatsapp2: "https://api.whatsapp.com/send?phone=50663789833",
   mailto: `mailto:classiccuts@gmail.com`,
   telto: `tel:50663789833`,
   waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
