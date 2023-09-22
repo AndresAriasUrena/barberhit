@@ -21,7 +21,7 @@ const enlaces = {
     "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
   facebook2:
     "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
-  whatsapp: "https://api.whatsapp.com/send?phone=50663789833,
+  whatsapp: "https://api.whatsapp.com/send?phone=50663789833",
   whatsapp2: "https://api.whatsapp.com/send?phone=50663789833",
   mailto: `mailto:classiccuts@gmail.com`,
   telto: `tel:50663789833`,
