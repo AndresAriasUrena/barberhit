@@ -8,30 +8,26 @@ const logo2 = document.querySelector("#logo2");
 const logo3 = document.querySelector("#logo3");
 
 const datosBarberia = {
-  nombreBarbero: "Francis Cartin",
-  telefono: "8346-1666", //85133445
-  correo: "cartin.santamaria@gmail.com",
-  dir1: "Frente al Ebais, en el Alto",
-  dir2: "Guadalupe, San José",
+  nombreBarbero: "Henry Hodgson",
+  telefono: "8914-0241", //85133445
+  correo: "henryprecise2@hotmail.com",
+  dir1: "300m Este y 25m Sur de terminal de buses",
+  dir2: "4 Reinas, Tibás, San José",
 };
 const enlaces = {
-  instagram:
-    "https://www.instagram.com/barberiafranciscartin/?fbclid=IwAR3aKMLfHs0j-EiuwTuiicJpRHK7egfbgd7SBpi8xbD-NTRECHflRYhV9MA",
-  instagram2:
-    "https://www.instagram.com/barberiafranciscartin/?fbclid=IwAR3aKMLfHs0j-EiuwTuiicJpRHK7egfbgd7SBpi8xbD-NTRECHflRYhV9MA",
-  facebook:
-    "https://www.facebook.com/barberiafranciscartin/?ref=bookmarks&paipv=0&eav=Afax9OgVwhIZDXguL6ecjk7fTXVjtOLhmav5m-Z5vPnLtFiD9fIdk2KZC0kMUYa3SE8&_rdr",
-  facebook2:
-    "https://www.facebook.com/barberiafranciscartin/?ref=bookmarks&paipv=0&eav=Afax9OgVwhIZDXguL6ecjk7fTXVjtOLhmav5m-Z5vPnLtFiD9fIdk2KZC0kMUYa3SE8&_rdr",
-  whatsapp: "https://api.whatsapp.com/send?phone=50683461666",
-  whatsapp2: "https://api.whatsapp.com/send?phone=50683461666",
-  mailto: `mailto:cartin.santamaria@gmail.com`,
-  telto: `tel:50683461666`,
+  instagram: "https://www.instagram.com/henryprecisecuts/",
+  instagram2: "https://www.instagram.com/henryprecisecuts/",
+  facebook: "https://www.instagram.com/precisebarbershopcr/",
+  facebook2: "https://www.instagram.com/precisebarbershopcr/",
+  whatsapp: "https://api.whatsapp.com/send?phone=50689140241",
+  whatsapp2: "https://api.whatsapp.com/send?phone=50689140241",
+  mailto: `mailto:henryprecise2@hotmail.com`,
+  telto: `tel:50689140241`,
   waze: `https://ul.waze.com/ul?place=ChIJZ6dD0hvloI8RuTTpl9RIAZU&ll=9.95589800%2C-84.04086590&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
-  googlemaps: "https://maps.app.goo.gl/Fsr262jf3RB5BGnz9",
-  googlemaps2: "https://maps.app.goo.gl/Fsr262jf3RB5BGnz9",
+  googlemaps: "https://maps.app.goo.gl/AiX8RJw3sv9yXZG76",
+  googlemaps2: "https://maps.app.goo.gl/AiX8RJw3sv9yXZG76",
 };
-const ruta_logo = "./assets/images/franciscartin-logo.svg";
+const ruta_logo = "./assets/images/precisebarbarshop-logo.svg";
 
 /**
  * Cambiar title
