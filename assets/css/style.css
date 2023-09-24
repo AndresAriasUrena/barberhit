@@ -183,7 +183,8 @@ body {
   font-size: 1.6rem;
   color: var(--independece);
   line-height: 1.8;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body.loaded {
@@ -1266,6 +1267,7 @@ section .hide-promo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 42rem;
   }
 
   .footer-bottom .social-list {
