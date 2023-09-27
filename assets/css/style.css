@@ -374,7 +374,7 @@ body.nav-active {
   width: 100%;
   height: 100vh;
   /* background-color: var(--verdigris); */
-  background-image: url("../images/load-classiccuts.png");
+  background-image: url("../images/mdw-ch.png");
   background-position: center;
   display: grid;
   place-items: center;
@@ -498,6 +498,7 @@ body.nav-active {
   color: var(--white);
   text-transform: uppercase;
   padding: 10px 24px;
+  text-align: right;
 }
 
 .social-list {

@@ -8,28 +8,26 @@ const logo2 = document.querySelector("#logo2");
 const logo3 = document.querySelector("#logo3");
 
 const datosBarberia = {
-  nombreBarbero: "Anthony Salas",
-  telefono: "6378-9833", //85133445
-  correo: "classiccuts@gmail.com",
-  dir1: "25m Oeste Diagonal al BCR ",
-  dir2: "Sabanilla de Montes de Oca, San José",
+  nombreBarbero: "Andres Arias",
+  telefono: "8781-4131", //85133445
+  correo: "andres@mainlydigitalworks.com",
+  dir1: "Altos de horizonte ",
+  dir2: "Escazu, San José",
 };
 const enlaces = {
-  instagram: "https://www.instagram.com/classiccuts.barbershopcr/",
-  instagram2: "https://www.instagram.com/classiccuts.barbershopcr/",
-  facebook:
-    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
-  facebook2:
-    "https://www.facebook.com/p/Classic-Cuts-Barber-Shop-100063828533871/",
-  whatsapp: "https://api.whatsapp.com/send?phone=50663789833",
-  whatsapp2: "https://api.whatsapp.com/send?phone=50663789833",
-  mailto: `mailto:classiccuts@gmail.com`,
-  telto: `tel:50663789833`,
+  instagram: "https://www.instagram.com/mainlydigitalworks/",
+  instagram2: "https://www.instagram.com/mainlydigitalworks/",
+  facebook: "https://www.facebook.com/profile.php?id=100089481716462",
+  facebook2: "https://www.facebook.com/profile.php?id=100089481716462",
+  whatsapp: "https://api.whatsapp.com/send?phone=50687814131",
+  whatsapp2: "https://api.whatsapp.com/send?phone=50687814131",
+  mailto: `mailto:andres@mainlydigitalworks.com`,
+  telto: `tel:50687814131`,
   waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
   googlemaps: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
   googlemaps2: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
 };
-const ruta_logo = "./assets/images/classiccuts-logo.svg";
+const ruta_logo = "./assets/images/barberhit-logo.svg";
 
 /**
  * Cambiar title
