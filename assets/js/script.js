@@ -10,7 +10,7 @@ const logo3 = document.querySelector("#logo3");
 const datosBarberia = {
   nombreBarbero: "Anthony Salas",
   telefono: "8513-3445 ", //85133445
-  correo: "akiba@gmail.com",
+  correo: "tonysalas1709@gmail.com",
   dir1: "25m Oeste Diagonal al BCR ",
   dir2: "Sabanilla de Montes de Oca, San José",
 };
@@ -21,7 +21,7 @@ const enlaces = {
   facebook2: "https://www.facebook.com/profile.php?id=100063828533871",
   whatsapp: "https://api.whatsapp.com/send?phone=50685133445",
   whatsapp2: "https://api.whatsapp.com/send?phone=50685133445",
-  mailto: `mailto:andres@mainlydigitalworks.com`,
+  mailto: `mailto:tonysalas1709@gmail.com`,
   telto: `tel:50685133445`,
   waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
   googlemaps: "https://maps.app.goo.gl/x8CAC7P3RT3d6joA6",
