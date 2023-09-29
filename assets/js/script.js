@@ -15,8 +15,8 @@ const datosBarberia = {
   dir2: "Sabanilla de Montes de Oca, San José",
 };
 const enlaces = {
-  instagram: "https://instagram.com/hanma_senpai_?igshid=MmU2YjMzNjRlOQ==",
-  instagram2: "https://instagram.com/hanma_senpai_?igshid=MmU2YjMzNjRlOQ==",
+  instagram: "https://instagram.com/akiba.barberiacr?igshid=MzRlODBiNWFlZA==",
+  instagram2: "https://instagram.com/akiba.barberiacr?igshid=MzRlODBiNWFlZA==",
   facebook: "https://www.facebook.com/profile.php?id=100063828533871",
   facebook2: "https://www.facebook.com/profile.php?id=100063828533871",
   whatsapp: "https://api.whatsapp.com/send?phone=50685133445",
