@@ -8,26 +8,26 @@ const logo2 = document.querySelector("#logo2");
 const logo3 = document.querySelector("#logo3");
 
 const datosBarberia = {
-  nombreBarbero: "Andres Arias",
-  telefono: "8781-4131", //85133445
-  correo: "andres@mainlydigitalworks.com",
-  dir1: "Altos de horizonte ",
-  dir2: "Escazu, San José",
+  nombreBarbero: "Anthony Salas",
+  telefono: "8513-3445 ", //85133445
+  correo: "akiba@gmail.com",
+  dir1: "25m Oeste Diagonal al BCR ",
+  dir2: "Sabanilla de Montes de Oca, San José",
 };
 const enlaces = {
-  instagram: "https://www.instagram.com/mainlydigitalworks/",
-  instagram2: "https://www.instagram.com/mainlydigitalworks/",
-  facebook: "https://www.facebook.com/profile.php?id=100089481716462",
-  facebook2: "https://www.facebook.com/profile.php?id=100089481716462",
-  whatsapp: "https://api.whatsapp.com/send?phone=50687814131",
-  whatsapp2: "https://api.whatsapp.com/send?phone=50687814131",
+  instagram: "https://instagram.com/hanma_senpai_?igshid=MmU2YjMzNjRlOQ==",
+  instagram2: "https://instagram.com/hanma_senpai_?igshid=MmU2YjMzNjRlOQ==",
+  facebook: "https://www.facebook.com/profile.php?id=100063828533871",
+  facebook2: "https://www.facebook.com/profile.php?id=100063828533871",
+  whatsapp: "https://api.whatsapp.com/send?phone=50685133445",
+  whatsapp2: "https://api.whatsapp.com/send?phone=50685133445",
   mailto: `mailto:andres@mainlydigitalworks.com`,
-  telto: `tel:50687814131`,
+  telto: `tel:50685133445`,
   waze: `https://ul.waze.com/ul?place=ChIJLb2Y__vloI8R0aLRH_97yZg&ll=9.94437100%2C-84.03628320&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location`,
-  googlemaps: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
-  googlemaps2: "https://maps.app.goo.gl/4BpWmnjp9uY8m3kE9",
+  googlemaps: "https://maps.app.goo.gl/x8CAC7P3RT3d6joA6",
+  googlemaps2: "https://maps.app.goo.gl/x8CAC7P3RT3d6joA6",
 };
-const ruta_logo = "./assets/images/barberhit-logo.svg";
+const ruta_logo = "./assets/images/akiba-logo.svg";
 
 /**
  * Cambiar title
